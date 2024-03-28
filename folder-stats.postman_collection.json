@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "67e00e1c-69ce-4274-a68b-677ef68e33e9",
+		"name": "folder-stats",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2696806"
+	},
+	"item": [
+		{
+			"name": "Get-Folder-Stats",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"folderPath\": \"D:\\\\Work\\\\EclipseWorkspace\\\\Github\\\\jpa-mapping-and-audit\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/folder-stats/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"folder-stats",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
